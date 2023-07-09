@@ -98,11 +98,15 @@ nav a {
 }
 
 /*main section style*/
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .about {
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 130px:;
-    margin: 130px 400px 200px 400px;
+    padding: 130px;
+    margin: 130px 0px;
 
 }
 
@@ -123,3 +127,25 @@ nav a {
 }
 
 /* about section style*/
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+.about-info {
+    text-align: center;
+    
+    
+}
+.info-title {
+    color: #757575;
+    margin-bottom: 0px;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+#what-i-do {
+    padding: 30px 150px;
+}
