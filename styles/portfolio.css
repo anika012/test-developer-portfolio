@@ -176,6 +176,7 @@ main section {
 .skill-description {
     color: #757575;
 }
+
 /*resume related style*/
 
 .resume-col-title {
@@ -202,17 +203,48 @@ main section {
 .resume-item-description {
     color: #757575;
 }
+
 .resume-container hr {
     margin: 10px;
 }
+
 .resume-item-institute {
     margin-top: 8px;
     margin-bottom: 10px;
 }
+
 .resume-item-description {
     margin-top: 10px;
 }
+
 .download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
 }
